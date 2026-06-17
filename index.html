@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schmitt Tuning Bibel | Interaktives Schrauber-Manifest</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-engine-warning crimson-text"></i>
+                    <span>SCHMITT</span>
+                </div>
+                <div class="brand-sub">MOPED PREMIUM PARTS</div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section-title">Manifest & Portal</div>
+                <a href="#" class="nav-item active" data-target="manifest" onclick="loadPortal(); return false;">
+                    <i class="fa-solid fa-book-open"></i> Das Portal-Manifest
+                </a>
+                
+                <div class="nav-section-title">Bibel-Akten</div>
+                <div class="chapters-list" id="chapters-list">
+                    <!-- Loaded dynamically via app.js -->
+                </div>
+                
+                <div class="nav-section-title">Interaktive Tools</div>
+                <a href="#" class="nav-item" data-target="tools" onclick="showToolsTab(); return false;">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Die Schmitt-Orakel
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="progress-container">
+                    <div class="progress-text">
+                        <span>Lesefortschritt</span>
+                        <span id="progress-percent">0%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-fill" style="width: 0%;"></div>
+                    </div>
+                </div>
+                <div class="footer-shop-btn">
+                    <a href="https://schmitt-tuning.de/neu/index.html" target="_blank">
+                        <i class="fa-solid fa-shopping-bag"></i> schmitt-tuning.de
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Mobile Header -->
+        <header class="mobile-header">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="mobile-logo">SCHMITT TUNING</div>
+            <a href="https://schmitt-tuning.de/neu/index.html" target="_blank" class="mobile-shop-link">
+                <i class="fa-solid fa-shopping-bag"></i>
+            </a>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content" id="main-content">
+            <!-- Loading Indicator -->
+            <div class="loading-screen" id="loading-screen" style="display: none;">
+                <div class="spinner"></div>
+                <p>Exhumierung der Perfektion...</p>
+            </div>
+
+            <!-- Page Container (Render Target) -->
+            <div class="page-container" id="page-render">
+                <!-- Dynamically filled with rendered Markdown -->
+            </div>
+
+            <!-- Interactive Tools Section (Static template, shown on tab switch) -->
+            <div class="tools-container" id="tools-tab" style="display: none;">
+                <h1 class="page-title Outfit"><i class="fa-solid fa-gears crimson-text"></i> DIE SCHMITT INTERAKTIVEN ORAKEL</h1>
+                <p class="subtitle font-inter">Die Lösung deiner mechanischen Qualen liegt nur ein paar Klicks entfernt. Befrage unsere antiken Berechnungsmaschinen.</p>
+                
+                <div class="tools-grid">
+                    <!-- Tool 1: Drama Rechner -->
+                    <div class="tool-card">
+                        <div class="tool-icon-wrapper">
+                            <i class="fa-solid fa-heart-crack"></i>
+                        </div>
+                        <h2 class="tool-title Outfit">1. Rechner der Kurbeltriebschmerzen</h2>
+                        <p class="tool-desc">Schildere deinen mechanischen Verfall. Unser theatralisches Orakel diagnostiziert deine Pein im Hamlet-Stil und reicht dir das passende Schmitt-Eisen zur Erlösung.</p>
+                        
+                        <form id="drama-form" onsubmit="runDramaCalculator(event);">
+                            <div class="form-group">
+                                <label for="drama-pain">Deine mechanische Not:</label>
+                                <select id="drama-pain" class="form-control">
+                                    <option value="rasseln">Kolbenringe rasseln wie Skelette im Wind</option>
+                                    <option value="rutschen">Die Kupplung rutscht im Sand der Verzweiflung</option>
+                                    <option value="gasannahme">Der Motor verschluckt sich bei Volllast</option>
+                                    <option value="falschluft">Paranoide Angst vor Falschluft am Ansaugstutzen</option>
+                                    <option value="licht">Die Zündung flackert schwach wie eine Sterbekerze</option>
+                                    <option value="hitze">Hitzeklingeln im Gluthauch des Sommers</option>
+                                    <option value="bremse">Trommelbremsen verzögern schlechter als der Alterungsprozess</option>
+                                    <option value="luft">Der Motor keucht unter verstopften Filtern</option>
+                                    <option value="tuev">Angst vor dem Gesetzeshüter bei Kontrollen</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="drama-model">Fahrzeugmodell:</label>
+                                    <select id="drama-model" class="form-control">
+                                        <option value="s51">Simson S51</option>
+                                        <option value="schwalbe">Simson Schwalbe (KR51/2)</option>
+                                        <option value="sr50">Simson Roller SR50</option>
+                                        <option value="s50">Simson S50</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="drama-level">Tuning-Stufe:</label>
+                                    <select id="drama-level" class="form-control">
+                                        <option value="alltag">Alltag / Mokick (Zahm)</option>
+                                        <option value="sport">Sport / Drehmoment (Stolz)</option>
+                                        <option value="racing">High-End Racing (Kompromisslos)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-crimson btn-full">Schmerz lindern & befragen</button>
+                        </form>
+
+                        <div class="tool-result" id="drama-result" style="display: none;">
+                            <!-- Result filled via app.js -->
+                        </div>
+                    </div>
+
+                    <!-- Tool 2: Vergaser Düsen Orakel -->
+                    <div class="tool-card">
+                        <div class="tool-icon-wrapper">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <h2 class="tool-title Outfit">2. Das Vergaser-Düsen-Orakel</h2>
+                        <p class="tool-desc">Gib die Kenndaten deines Setups ein. Die Rechenmaschine ermittelt das ideale Hauptdüsen-Kaliber der Schmitt M5-Serie, um einen Magerlauf-Tod abzuwenden.</p>
+                        
+                        <form id="jetting-form" onsubmit="runJettingOracle(event);">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="jetting-carb">Vergasertyp:</label>
+                                    <select id="jetting-carb" class="form-control">
+                                        <option value="16">BVF 16N1 / 16N3 (Serie)</option>
+                                        <option value="19">BVF 19N1 (Tuning)</option>
+                                        <option value="21">BVF 21N1 (Tuning)</option>
+                                        <option value="24">SmartCarb 24</option>
+                                        <option value="26">SmartCarb 26</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="jetting-ccm">Hubraum (ccm):</label>
+                                    <input type="number" id="jetting-ccm" class="form-control" value="60" min="50" max="110">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="jetting-filter">Verwendeter Luftfilter:</label>
+                                <select id="jetting-filter" class="form-control">
+                                    <option value="original">Originaler Luftfilterkasten (Restriktiv)</option>
+                                    <option value="sport">Sportluftfiltermatte (Schmitt Optimiert)</option>
+                                    <option value="open">Offener Trichter / High-End Luftfilter</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-crimson btn-full">Düsenkaliber berechnen</button>
+                        </form>
+
+                        <div class="tool-result" id="jetting-result" style="display: none;">
+                            <!-- Result filled via app.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <!-- KaTeX JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    
+    <!-- Marked Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@5.1.2/lib/marked.umd.min.js"></script>
+    
+    <!-- Mermaid.js Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.2.4/dist/mermaid.min.js"></script>
+    
+    <!-- Core App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
