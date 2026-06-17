@@ -1,9 +1,7 @@
 # 🌡️ Kapitel 7: Die Kühlung – Die Zähmung des Feuers
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-VII%20Das%20Fieber-black?style=flat-square" alt="Act 7">
-  <img src="https://img.shields.io/badge/SEO-Simson%20Zylinderkopf%20tuning-red?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-VII%20Das%20Fieber-black?style=flat-square" alt="Act 7"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---

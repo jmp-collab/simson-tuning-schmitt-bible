@@ -1,9 +1,7 @@
 # 🔌 Kapitel 2: Der Vergaser – Der Durst nach Verbrennung
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-II%20Der%20Durst-black?style=flat-square" alt="Act 2">
-  <img src="https://img.shields.io/badge/SEO-Simson%20Vergaser%20abstimmen-orange?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-II%20Der%20Durst-black?style=flat-square" alt="Act 2"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---

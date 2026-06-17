@@ -1,9 +1,7 @@
 # ⚙️ Kapitel 4: Die Kurbelwelle – Das rotierende Rückgrat
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-IV%20Das%20R%C3%BCckgrat-black?style=flat-square" alt="Act 4">
-  <img src="https://img.shields.io/badge/SEO-Simson%20Kurbelwelle%20verst%C3%A4rkt-red?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-IV%20Das%20R%C3%BCckgrat-black?style=flat-square" alt="Act 4"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---

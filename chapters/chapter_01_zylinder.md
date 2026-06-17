@@ -1,9 +1,7 @@
 # ⚙️ Kapitel 1: Der Zylinder – Das Erwachen des Metalls
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-I%20Der%20Verfall-black?style=flat-square" alt="Act 1">
-  <img src="https://img.shields.io/badge/SEO-Simson%20Zylinder%20tuning-red?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-I%20Der%20Verfall-black?style=flat-square" alt="Act 1"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---

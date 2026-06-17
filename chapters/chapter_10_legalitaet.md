@@ -1,9 +1,7 @@
 # ⚖️ Kapitel 10: Das Gericht – Der Tanz vor dem Richter
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-X%20Das%20Gericht-black?style=flat-square" alt="Act 10">
-  <img src="https://img.shields.io/badge/SEO-Simson%20tuning%20legal%20T%C3%9CV-red?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-X%20Das%20Gericht-black?style=flat-square" alt="Act 10"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---

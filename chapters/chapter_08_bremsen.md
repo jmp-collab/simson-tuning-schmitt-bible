@@ -1,9 +1,7 @@
 # ⚙️ Kapitel 8: Die Bremsen – Die Diktatur des Stillstands
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-VIII%20Der%20Stillstand-black?style=flat-square" alt="Act 8">
-  <img src="https://img.shields.io/badge/SEO-Simson%20Trommelbremse%20verbessern-red?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-VIII%20Der%20Stillstand-black?style=flat-square" alt="Act 8"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---

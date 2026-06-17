@@ -1,9 +1,7 @@
 # 💨 Kapitel 3: Der Auspuff – Die Befreiung der Abgase
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-III%20Die%20Befreiung-black?style=flat-square" alt="Act 3">
-  <img src="https://img.shields.io/badge/SEO-Simson%20Tuning%20Auspuff-yellow?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-III%20Die%20Befreiung-black?style=flat-square" alt="Act 3"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---

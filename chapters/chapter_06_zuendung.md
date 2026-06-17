@@ -1,9 +1,7 @@
 # ⚡ Kapitel 6: Die Zündung – Das Feuer des Zündfunkens
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Akt-VI%20Das%20Feuer-black?style=flat-square" alt="Act 6">
-  <img src="https://img.shields.io/badge/SEO-Simson%20VAPE%20einstellen-brightgreen?style=flat-square" alt="SEO">
-  <img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
+  <img src="https://img.shields.io/badge/Akt-VI%20Das%20Feuer-black?style=flat-square" alt="Act 6"><img src="https://img.shields.io/badge/Erl%C3%B6sung-schmitt--tuning.de-blue?style=flat-square" alt="Redemption">
 </p>
 
 ---
