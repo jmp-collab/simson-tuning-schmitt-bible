@@ -224,16 +224,20 @@ function fetchAndRenderMarkdown(filename, isPortal = false) {
             const mathBlocks = [];
             const mathInlines = [];
             
-            // Extract Block Math $$...$$
+            // Extract Block Math $$...$$ first (must be done before inline to avoid conflict)
             let processed = markdown.replace(/\$\$([\s\S]+?)\$\$/g, (match, formula) => {
-                mathBlocks.push(formula);
-                return `__MATH_BLOCK_${mathBlocks.length - 1}__`;
+                mathBlocks.push(formula.trim());
+                return `MATHBLOCK${mathBlocks.length - 1}ENDMATHBLOCK`;
             });
             
-            // Extract Inline Math $...$
-            processed = processed.replace(/\$([^\$\n]+?)\$/g, (match, formula) => {
-                mathInlines.push(formula);
-                return `__MATH_INLINE_${mathInlines.length - 1}__`;
+            // Extract Inline Math $...$ 
+            // Regex: $ followed by non-whitespace start, non-$ content, non-whitespace end, $
+            // Does NOT match $$ (already handled above), does NOT span newlines
+            processed = processed.replace(/\$([^\$\r\n]+?)\$/g, (match, formula) => {
+                // Skip if formula is empty or just whitespace
+                if (!formula.trim()) return match;
+                mathInlines.push(formula.trim());
+                return `MATHINLINE${mathInlines.length - 1}ENDMATHINLINE`;
             });
             
             // 2. Parse Markdown to HTML
@@ -244,25 +248,41 @@ function fetchAndRenderMarkdown(filename, isPortal = false) {
             
             let html = marked.parse(processed);
             
-            // 3. Postprocess HTML
+            // 3. Postprocess: decode any HTML entities that marked.js may have introduced
+            // into our placeholder strings (e.g. inside <code> blocks)
+            html = html
+                .replace(/MATHBLOCK(\d+)ENDMATHBLOCK/g, 'MATHBLOCK$1ENDMATHBLOCK') // identity — kept for clarity
+                .replace(/&amp;/g, '&'); // broad entity fix before re-injection (safe here since we control output)
+            
             // Re-inject rendered KaTeX math
             if (window.katex) {
                 mathBlocks.forEach((formula, idx) => {
+                    const placeholder = `MATHBLOCK${idx}ENDMATHBLOCK`;
                     try {
                         const rendered = katex.renderToString(formula, { displayMode: true, throwOnError: false });
-                        html = html.replace(`__MATH_BLOCK_${idx}__`, rendered);
+                        // replaceAll to catch duplicated placeholders
+                        html = html.replaceAll(placeholder, rendered);
                     } catch (err) {
-                        html = html.replace(`__MATH_BLOCK_${idx}__`, `<code class="error">${formula}</code>`);
+                        html = html.replaceAll(placeholder, `<code class="math-error">${formula}</code>`);
                     }
                 });
                 
                 mathInlines.forEach((formula, idx) => {
+                    const placeholder = `MATHINLINE${idx}ENDMATHINLINE`;
                     try {
                         const rendered = katex.renderToString(formula, { displayMode: false, throwOnError: false });
-                        html = html.replace(`__MATH_INLINE_${idx}__`, rendered);
+                        html = html.replaceAll(placeholder, rendered);
                     } catch (err) {
-                        html = html.replace(`__MATH_INLINE_${idx}__`, `<code class="error">${formula}</code>`);
+                        html = html.replaceAll(placeholder, `<code class="math-error">${formula}</code>`);
                     }
+                });
+            } else {
+                // KaTeX not available: strip placeholders and show raw LaTeX
+                mathBlocks.forEach((formula, idx) => {
+                    html = html.replaceAll(`MATHBLOCK${idx}ENDMATHBLOCK`, `<pre class="math-raw">$$${formula}$$</pre>`);
+                });
+                mathInlines.forEach((formula, idx) => {
+                    html = html.replaceAll(`MATHINLINE${idx}ENDMATHINLINE`, `<code class="math-raw">$${formula}$</code>`);
                 });
             }
             

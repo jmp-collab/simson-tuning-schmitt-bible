@@ -661,6 +661,38 @@ pre code {
     background-color: rgba(255,255,255,0.01);
     border-radius: 8px;
     border: 1px dashed rgba(255,255,255,0.03);
+    overflow-x: auto;
+}
+
+/* Inline KaTeX: fix vertical alignment so it sits on the text baseline */
+.katex {
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+/* Fallback styles if KaTeX fails or is unavailable */
+code.math-error {
+    color: #ff6b6b;
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+pre.math-raw {
+    color: #ffb703;
+    background-color: rgba(255, 183, 3, 0.05);
+    border: 1px dashed rgba(255, 183, 3, 0.3);
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+code.math-raw {
+    color: #ffb703;
+    background-color: rgba(255, 183, 3, 0.05);
+    font-family: 'Courier New', monospace;
 }
 
 /* Center aligned image blocks */
