@@ -316,7 +316,11 @@ function fetchAndRenderMarkdown(filename, isPortal = false) {
             });
             
             // Render to container
+            renderDiv.classList.remove('loaded');
             renderDiv.innerHTML = html;
+            // Trigger reflow so animation re-runs on every load
+            void renderDiv.offsetWidth;
+            renderDiv.classList.add('loaded');
             
             // 5. Initialize/render Mermaid flowcharts
             if (window.mermaid) {

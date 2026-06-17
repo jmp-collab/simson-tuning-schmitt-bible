@@ -22,6 +22,10 @@
     
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
+
+    /* FIX 1: Animated gradient background keyframe colors */
+    --grad-1: #0a0000;
+    --grad-2: #050505;
 }
 
 /* Base Styles & Reset */
@@ -39,10 +43,25 @@ body {
     overflow: hidden;
 }
 
+/* FIX 8: Link underline slide-in animation */
 a {
     color: var(--primary-light);
     text-decoration: none;
     transition: var(--transition);
+    position: relative;
+}
+
+.page-container a {
+    background-image: linear-gradient(var(--primary), var(--primary));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.3s ease, color 0.3s ease;
+}
+
+.page-container a:hover {
+    color: #ffffff;
+    background-size: 100% 1px;
 }
 
 a:hover {
@@ -138,19 +157,48 @@ a:hover {
     text-align: center;
 }
 
-.nav-item:hover, .nav-item.active {
+.nav-item:hover {
     color: #ffffff;
     background-color: var(--bg-card-hover);
     border-color: rgba(255, 255, 255, 0.05);
 }
 
+/* FIX 2: Active nav item gets full crimson glow treatment */
+.nav-item.active {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(204, 0, 0, 0.15) 0%, rgba(204, 0, 0, 0.03) 100%);
+    border-color: rgba(204, 0, 0, 0.35);
+    box-shadow: inset 0 0 20px rgba(204, 0, 0, 0.06), 0 0 0 0.5px rgba(204,0,0,0.2);
+}
+
 .nav-item.active i {
     color: var(--primary-light);
-    text-shadow: 0 0 8px rgba(255, 26, 26, 0.4);
+    text-shadow: 0 0 12px rgba(255, 26, 26, 0.8), 0 0 24px rgba(255, 26, 26, 0.4);
 }
 
 .nav-chapter-item {
     cursor: pointer;
+    position: relative;
+}
+
+/* FIX 3: Chapter number badge — small crimson pill on the left */
+.nav-chapter-item::before {
+    content: attr(data-chapter);
+    font-family: var(--font-heading);
+    font-size: 9px;
+    font-weight: 800;
+    color: var(--primary);
+    background-color: rgba(204, 0, 0, 0.12);
+    border: 1px solid rgba(204, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 1px 5px;
+    min-width: 22px;
+    text-align: center;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0;
 }
 
 .nav-chapter-item .chapter-check {
@@ -163,6 +211,7 @@ a:hover {
 
 .nav-chapter-item .chapter-check.checked {
     color: #00e676;
+    text-shadow: 0 0 8px rgba(0, 230, 118, 0.6);
 }
 
 .sidebar-footer {
@@ -265,11 +314,20 @@ a:hover {
    MAIN VIEW SHELL
    ========================================================================== */
 
+/* FIX 1: Animated gradient background — subtle breathing red glow */
+@keyframes bgPulse {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 .main-content {
     flex-grow: 1;
     height: 100%;
     overflow-y: auto;
-    background: radial-gradient(circle at 70% 20%, #150505 0%, var(--bg-darker) 60%);
+    background: radial-gradient(ellipse at 80% 10%, rgba(140, 0, 0, 0.12) 0%, transparent 50%),
+                radial-gradient(ellipse at 10% 90%, rgba(80, 0, 0, 0.08) 0%, transparent 40%),
+                var(--bg-darker);
     padding: 60px 80px;
     position: relative;
     scroll-behavior: smooth;
@@ -307,6 +365,16 @@ a:hover {
 .page-container {
     max-width: 900px;
     margin: 0 auto;
+}
+
+/* FIX 4: Page fade-in animation when new chapter loads */
+@keyframes pageFadeIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.page-container.loaded {
+    animation: pageFadeIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 /* ==========================================================================
@@ -494,12 +562,21 @@ select.form-control option {
     gap: 16px;
 }
 
+/* FIX 10: Product image zoom on hover in tool result cards */
 .result-product img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid var(--border-color);
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+}
+
+.result-product img:hover {
+    transform: scale(1.12);
+    border-color: var(--primary);
+    box-shadow: 0 8px 24px rgba(204, 0, 0, 0.4);
 }
 
 .result-product-info h4 {
@@ -552,22 +629,41 @@ table tr:nth-child(even) {
     background-color: rgba(255,255,255,0.01);
 }
 
+/* FIX 9: Table row hover highlight */
+table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+table tbody tr:hover {
+    background-color: rgba(204, 0, 0, 0.06) !important;
+    cursor: default;
+}
+
+/* FIX 5: H1 gradient text — white-to-crimson fade */
 .page-container h1 {
     font-family: var(--font-heading);
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 800;
     margin: 40px 0 16px 0;
     letter-spacing: 0.5px;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 12px;
+    background: linear-gradient(135deg, #ffffff 0%, #ffcccc 60%, var(--primary-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
+/* FIX 6: H2 with red left-border accent line */
 .page-container h2 {
     font-family: var(--font-heading);
     font-size: 24px;
     font-weight: 700;
     margin: 36px 0 14px 0;
     color: #ffffff;
+    padding-left: 14px;
+    border-left: 3px solid var(--primary);
+    position: relative;
 }
 
 .page-container h3 {
@@ -578,20 +674,23 @@ table tr:nth-child(even) {
     color: var(--accent);
 }
 
+/* FIX 7: Better paragraph typography — looser line-height and slightly bigger text */
 .page-container p {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     color: var(--text-main);
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.85;
 }
 
 .page-container ul, .page-container ol {
     margin-bottom: 20px;
     padding-left: 24px;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.85;
 }
 
 .page-container li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 /* GitHub Alerts / Callout Styling */
