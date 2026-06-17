@@ -26,6 +26,12 @@ Grauguss ist der stumme Zeuge des Verfalls. Er speichert die Hitze wie eine alte
 
 <a name="gral"></a>
 ## 2. Der Gral: Schmitt Sportfreund & Drehmomentwunder
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/STT48900_Master_2.jpg" alt="Das Schmitt GST-60 60ccm Zylinderkit – 100% thermische Freiheit durch Nicasil-Laufbahn." width="320"><br>
+  <em>Das Schmitt GST-60 60ccm Zylinderkit – 100% thermische Freiheit durch Nicasil-Laufbahn.</em>
+</p>
+
 Doch dann: Die Exhumierung der Perfektion. 
 
 Wir weichen nicht zurück. **Schmitt Sportfreund** und **Schmitt Drehmomentwunder** brechen mit der Tradition des Schmerzes. Gegossen in den legendären Original-Formen, veredelt mit einer hochmodernen **Nickel-Siliziumkarbid-Laufbahn (Nicasil)**.
@@ -70,16 +76,16 @@ graph TD
     SparkCheck -->|Ja| UpgradeHead["🔧 Zylinderkopf tauschen gegen Schmitt Performance"]
     SparkCheck -->|Nein| CheckRings["🔧 Kolbenring-Stoßspiel prüfen (Verschleißgrenze: 0.8 mm)"]
 
-    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/index.html#zylinder'>Schmitt Sportfreund Zylinderkit auf schmitt-tuning.de wählen</a>"]
-    UpgradeHead --> BuyHead["🛒 <a href='https://www.racing-planet.de/xanario_search.php?query=schmitt+sportfreund'>Zylinderersatzteile bei Racing Planet bestellen</a>"]
+    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/produkt/zylinder-sportfreund.html'>Schmitt Sportfreund Zylinderkit auf schmitt-tuning.de wählen</a>"]
+    UpgradeHead --> BuyHead["🛒 <a href='https://www.racing-planet.de/zylinderkit-schmitt-sportfreund-vertex-edition-50ccm-38mm-fuer-simson-s51-kr51-2-sr50-p-501352-1.html'>Zylinderersatzteile bei Racing Planet bestellen</a>"]
 ```
 
 > [!TIP]
 > Lass den Schrott der Vergangenheit hinter dir. Mama, das Eisen weiß meinen Namen. Hol dir das Schmitt Sportfreund Zylinderkit und beende den Kompressionsverlust.
 >
-> ➡️ **[Jetzt Zylinder-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#zylinder)**
+> ➡️ **[Jetzt Zylinder-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/produkt/zylinder-sportfreund.html)**
 >
-> ➡️ **[Direktlink zum Sportfreund 60ccm Kit bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+sportfreund+60)**
+> ➡️ **[Direktlink zum Sportfreund 60ccm Kit bei Racing Planet](https://www.racing-planet.de/zylinderkit-schmitt-sportfreund-vertex-edition-60ccm-41mm-fuer-simson-s51-kr51-2-sr50-p-568944-1.html)**
 
 ---
 

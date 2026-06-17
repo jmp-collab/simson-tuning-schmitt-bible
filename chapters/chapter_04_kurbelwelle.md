@@ -27,6 +27,12 @@ Bei Drehzahlen über $8.000\,\text{U/min}$ wird das Kurbelwellenlager zum Folter
 
 <a name="schmitt-welle"></a>
 ## 2. Das neue Zentrum der Macht: Schmitt Sport-Kurbelwelle
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/STT44242_1.jpg" alt="Kurbelwelle Schmitt Sportfreund – Portugiesische Schmiedekunst, bereit für 16.000 U/min." width="320"><br>
+  <em>Kurbelwelle Schmitt Sportfreund – Portugiesische Schmiedekunst, bereit für 16.000 U/min.</em>
+</p>
+
 Die Implantation der Gewalt erfolgt durch die **Schmitt High-Performance Kurbelwelle**. 
 Konstruiert mit nadelgelagerten Hubzapfen und geschmiedeten Hubscheiben.
 
@@ -79,16 +85,16 @@ graph TD
     CheckVibes -->|Nein| TensionCheck["🔧 Kettenspannung / Motorlagerung prüfen"]
 
     BrokenBearings & CrankUnbalanced --> SplitEngine["🔥 Urteil: Motorkollaps steht bevor. Spaltung zwingend!"]
-    SplitEngine --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/index.html#kurbelwelle'>Schmitt Kurbelwelle & Lager auf schmitt-tuning.de bestellen</a>"]
-    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/xanario_search.php?query=schmitt+kurbelwelle'>Lagersätze direkt bei Racing Planet ordern</a>"]
+    SplitEngine --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/produkt/kurbelwelle.html'>Schmitt Kurbelwelle & Lager auf schmitt-tuning.de bestellen</a>"]
+    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/kurbelwelle-schmitt-sportfreund-44mm-hub-85mm-pleuel-fuer-simson-s51-s53-s70-s83-sr50-sr80-kr51-2-p-496655-1.html'>Lagersätze direkt bei Racing Planet ordern</a>"]
 ```
 
 > [!TIP]
 > 16.000. Nicht Drehzahl – Zustand. Mama, die Welt dreht sich um mich. Lass dein Kurbelgehäuse regenerieren und setze auf Schmitt.
 >
-> ➡️ **[Jetzt Kurbelwellen-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#kurbelwelle)**
+> ➡️ **[Jetzt Kurbelwellen-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/produkt/kurbelwelle.html)**
 >
-> ➡️ **[Direktlink zur Schmitt Sport-Kurbelwelle bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+kurbelwelle)**
+> ➡️ **[Direktlink zur Schmitt Sport-Kurbelwelle bei Racing Planet](https://www.racing-planet.de/kurbelwelle-schmitt-sportfreund-44mm-hub-85mm-pleuel-fuer-simson-s51-s53-s70-s83-sr50-sr80-kr51-2-p-496655-1.html)**
 
 ---
 

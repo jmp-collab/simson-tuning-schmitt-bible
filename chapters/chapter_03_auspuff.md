@@ -26,6 +26,12 @@ Wo die Maschine schreien sollte, flüstert sie nur. Das ist der Pfad des Leidens
 
 <a name="waffe"></a>
 ## 2. Die akustische Waffe: Schmitt DailyStreet & DailyRace
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/54871_1.jpg" alt="Schmitt High-End Edelstahl Auspuffhalterung – Vibrationsfreier Halt für Resonanzanlagen." width="320"><br>
+  <em>Schmitt High-End Edelstahl Auspuffhalterung – Vibrationsfreier Halt für Resonanzanlagen.</em>
+</p>
+
 Der akustische Gegenschlag folgt auf dem Fuße: **Schmitt Resonanzsysteme**. 
 Gefertigt mit chirurgischer Präzision, um den Aufladungseffekt bei exakten Drehzahlen zu zünden.
 
@@ -69,16 +75,16 @@ graph TD
     StandardAuspuff -->|Ja| Upgrade["⚠️ Das Urteil: Leistungsmangel durch Prallblech!"]
     Upgrade --> Buy["🔥 Upgrade auf Schmitt DailyStreet oder DailyRace"]
     
-    Buy --> BuyPage["🛒 <a href='https://schmitt-tuning.de/neu/index.html#auspuff'>Auspuffanlagen auf schmitt-tuning.de vergleichen</a>"]
-    BuyPage --> BuyRP["🛒 <a href='https://www.racing-planet.de/xanario_search.php?query=schmitt+dailyrace'>Direkt bei Racing Planet bestellen</a>"]
+    Buy --> BuyPage["🛒 <a href='https://schmitt-tuning.de/neu/produkt/sportauspuff.html'>Auspuffanlagen auf schmitt-tuning.de vergleichen</a>"]
+    BuyPage --> BuyRP["🛒 <a href='https://www.racing-planet.de/halter-auspuff-hinten-edelstahl-fuer-simson-s50-s51-p-586036-1.html'>Direkt bei Racing Planet bestellen</a>"]
 ```
 
 > [!TIP]
 > Resonanz ist kein Klang. Es ist ein Angriff auf den Asphalt. Mama, sie hören mich in anderen Städten. Hol dir die Schmitt DailyRace Auspuffanlage.
 >
-> ➡️ **[Jetzt Auspuff-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#auspuff)**
+> ➡️ **[Jetzt Auspuff-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/produkt/sportauspuff.html)**
 >
-> ➡️ **[Direktlink zu den Schmitt DailyRace Modellen bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+dailyrace)**
+> ➡️ **[Direktlink zu den Schmitt DailyRace Modellen bei Racing Planet](https://www.racing-planet.de/halter-auspuff-hinten-edelstahl-fuer-simson-s50-s51-p-586036-1.html)**
 
 ---
 

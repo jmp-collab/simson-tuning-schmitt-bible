@@ -26,6 +26,12 @@ Ein standardmäßiger BVF-Vergaser, vernachlässigt und verzogen, ist ein zahnlo
 
 <a name="flut"></a>
 ## 2. Die Flut: Schmitt Vergaser & M5 Düsen-Präzision
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/KITmitNK.200.29_1.jpg" alt="Schmitt Tuning-Vergaser Kit 19mm – Präzise Beatmung für maximale Strömungsgeschwindigkeit." width="320"><br>
+  <em>Schmitt Tuning-Vergaser Kit 19mm – Präzise Beatmung für maximale Strömungsgeschwindigkeit.</em>
+</p>
+
 Die Antwort auf den Durst lautet: **Schmitt Tuning-Vergaser**. 
 Konstruiert mit dem Blick fürs Wesentliche. Perfekt gefräste Flansche, die Falschluft keine Chance geben, und eine präzise Bohrungs-Geometrie, die den Füllungsgrad maximiert.
 
@@ -70,7 +76,7 @@ graph TD
     CheckColor -->|Schwarz / Fett| SmallerJet["⚠️ Motor ertrinkt! <br>Hauptdüse verkleinern"]
     CheckColor -->|Rehbraun| NeedleTune["3. Teillastnadel verstellen <br>(Clip eine Kerbe nach unten für fetter)"]
 
-    LargerJet --> BuyJets["🛒 <a href='https://schmitt-tuning.de/neu/index.html#vergaser'>Düsen & Vergaser auf schmitt-tuning.de checken</a>"]
+    LargerJet --> BuyJets["🛒 <a href='https://schmitt-tuning.de/neu/produkt/vergaser.html'>Düsen & Vergaser auf schmitt-tuning.de checken</a>"]
     SmallerJet --> AdjustFloat["🔧 Schwimmerstand einstellen (BVF: 28 mm / 32.5 mm)"]
     NeedleTune --> TryRide["Probefahrt machen"]
 ```
@@ -78,9 +84,9 @@ graph TD
 > [!TIP]
 > Beende den Durst deines Motors. Mama, ich habe Durst nach mehr. Rüste jetzt auf den Schmitt BVF-Vergaser um und stimme ihn präzise ab.
 >
-> ➡️ **[Jetzt Vergaser-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#vergaser)**
+> ➡️ **[Jetzt Vergaser-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/produkt/vergaser.html)**
 >
-> ➡️ **[Direktlink zum Schmitt M5 Düsenset bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+hauptduesen)**
+> ➡️ **[Direktlink zum Schmitt M5 Düsenset bei Racing Planet](https://www.racing-planet.de/vergaser-leerlaufduesen-set-schmitt-fuer-bvf-vergaser-25-34-10-stueck-p-506597-1.html)**
 
 ---
 

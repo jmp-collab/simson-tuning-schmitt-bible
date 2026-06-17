@@ -26,6 +26,12 @@ Tuning im Verborgenen ist eine ständige Furcht vor der Entdeckung. Das ist der 
 
 <a name="zulassung"></a>
 ## 2. Die legale Metamorphose zum Leichtkraftrad
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/54891_1.jpg" alt="Schmitt CNC-Radnabe für Scheibenbremse – Maximale Stabilität und Bremskraft für die TÜV-Einzelabnahme." width="320"><br>
+  <em>Schmitt CNC-Radnabe für Scheibenbremse – Maximale Stabilität und Bremskraft für die TÜV-Einzelabnahme.</em>
+</p>
+
 Wir wählen den Pfad der Offenheit: **Die Einzelabnahme nach § 21 StVZO**.
 
 Mit dem Schmitt-Zylinder und der passenden Chassis-Versteifung mutiert dein Moped legal zum Leichtkraftrad. Kein Verstecken mehr, keine Angst vor Kontrollen. Fahrbar mit B196 oder A1.
@@ -82,7 +88,7 @@ graph TD
 >
 > ➡️ **[Jetzt Zulassungs-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#home)**
 >
-> ➡️ **[Verstärkungsteile und CNC-Komponenten im Racing Planet Shop ansehen](https://www.racing-planet.de/xanario_search.php?query=schmitt+cnc)**
+> ➡️ **[Verstärkungsteile und CNC-Komponenten im Racing Planet Shop ansehen](https://www.racing-planet.de/radnabe-fuer-scheibenbremse-vorn-schwarz-fuer-simson-s50-s51-s70-s53-s83-enduro-p-586056-1.html)**
 
 ---
 

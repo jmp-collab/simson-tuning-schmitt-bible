@@ -26,6 +26,12 @@ Das Gasgemisch entzündet sich von selbst, noch bevor der Zündfunke überspring
 
 <a name="eisschock"></a>
 ## 2. Der Eisschock: Schmitt Performance Fächerkopf
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/STT49468_4.jpg" alt="Schmitt RD Style Tuning-Zylinderkopf – Optimierte Brennraumgeometrie für kompromisslose Verdichtung." width="320"><br>
+  <em>Schmitt RD Style Tuning-Zylinderkopf – Optimierte Brennraumgeometrie für kompromisslose Verdichtung.</em>
+</p>
+
 Die Rettung vor dem thermischen Kollaps naht: **Schmitt Performance Zylinderköpfe**.
 
 *   **Die Fächerstruktur:** Enorm vergrößerte Oberfläche der Kühllamellen. Die Fahrtluft greift tief in das Aluminium ein und reißt die Wärme förmlich mit sich.
@@ -66,19 +72,19 @@ graph TD
     CheckFins -->|Ja| CleanFins["🔧 Kühlrippen gründlich reinigen"]
     CheckFins -->|Nein| HeatOverload["⚠️ Zylinderkopf thermisch überfordert!"]
     
-    Lean --> BuyJets["🛒 <a href='https://schmitt-tuning.de/neu/index.html#kuehlung'>Abstimmsets auf schmitt-tuning.de holen</a>"]
+    Lean --> BuyJets["🛒 <a href='https://schmitt-tuning.de/neu/produkt/performance-kopf.html'>Abstimmsets auf schmitt-tuning.de holen</a>"]
     HeatOverload --> UpgradeHead["🔥 Tausch gegen Schmitt Performance Zylinderkopf"]
     
-    UpgradeHead --> BuyHead["🛒 <a href='https://schmitt-tuning.de/neu/index.html#kuehlung'>Köpfe auf schmitt-tuning.de ansehen</a>"]
-    BuyHead --> BuyRP["🛒 <a href='https://www.racing-planet.de/xanario_search.php?query=schmitt+performance+zylinderkopf'>Köpfe direkt bei Racing Planet kaufen</a>"]
+    UpgradeHead --> BuyHead["🛒 <a href='https://schmitt-tuning.de/neu/produkt/performance-kopf.html'>Köpfe auf schmitt-tuning.de ansehen</a>"]
+    BuyHead --> BuyRP["🛒 <a href='https://www.racing-planet.de/zylinderkopf-schmitt-rd-style-50ccm-fuer-simson-s51-s53-sr50-kr51-2-p-507696-1.html'>Köpfe direkt bei Racing Planet kaufen</a>"]
 ```
 
 > [!TIP]
 > Temperatur ist eine Entscheidung. MAMA, ICH HABE DAS FEUER ERZOGEN. Setze dem Hitzewahn ein Ende und rüste auf den Schmitt Fächerkopf um.
 >
-> ➡️ **[Jetzt Kühlungs-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#kuehlung)**
+> ➡️ **[Jetzt Kühlungs-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/produkt/performance-kopf.html)**
 >
-> ➡️ **[Direktlink zum Schmitt Performance Kopf bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+performance+zylinderkopf)**
+> ➡️ **[Direktlink zum Schmitt Performance Kopf bei Racing Planet](https://www.racing-planet.de/zylinderkopf-schmitt-rd-style-50ccm-fuer-simson-s51-s53-sr50-kr51-2-p-507696-1.html)**
 
 ---
 

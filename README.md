@@ -76,7 +76,7 @@ graph TD
 *   **Thema:** Nicasil-Beschichtung, K20-Kolben und das Ende des Grauguss-Mittelmaßes.
 *   **Dramatische Formel:** Die exhumierte Hubraumberechnung:
     $$V_h = \pi \cdot \frac{d^2}{4} \cdot s \quad [\text{cm}^3]$$
-*   **Shop-Erlösung:** [Schmitt Sportfreund Zylinderkits auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#zylinder)
+*   **Shop-Erlösung:** [Schmitt Sportfreund Zylinderkits auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/zylinder-sportfreund.html)
 *   **Direktlink zum Kapitel:** [Kapitel 1 lesen 📖](chapters/chapter_01_zylinder.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -91,7 +91,7 @@ graph TD
 *   **Dramatische Formel:** Die Dimensionierung der Erlösung:
     $$d = k \cdot \sqrt{V_h \cdot n_{\text{max}}}$$
 *   **Python-Tool:** Befrage das [Vergaser-Düsen-Orakel](tools/jetting_oracle.py).
-*   **Shop-Erlösung:** [Schmitt Vergaser auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#vergaser)
+*   **Shop-Erlösung:** [Schmitt Vergaser auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/vergaser.html)
 *   **Direktlink zum Kapitel:** [Kapitel 2 lesen 📖](chapters/chapter_02_vergaser.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -105,7 +105,7 @@ graph TD
 *   **Thema:** Der Resonanzwellen-Angriff, DailyStreet (Serienoptik) vs. DailyRace R/SP/D.
 *   **Dramatische Formel:** Berechnung der Resonanzlänge gegen den Schall:
     $$L = \frac{v_s \cdot \alpha_a}{12 \cdot n}$$
-*   **Shop-Erlösung:** [Schmitt Auspuffsysteme auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#auspuff)
+*   **Shop-Erlösung:** [Schmitt Auspuffsysteme auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/sportauspuff.html)
 *   **Direktlink zum Kapitel:** [Kapitel 3 lesen 📖](chapters/chapter_03_auspuff.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -121,7 +121,7 @@ graph TD
 *   **Thema:** Portugiesische Schmiedekunst, nadelgelagerte Hubzapfen und 16.000 U/min ohne Furcht.
 *   **Dramatische Formel:** Die mittlere Geschwindigkeit des Kolbens im Zuchthaus des Zylinders:
     $$v_m = \frac{2 \cdot s \cdot n}{60.000} \quad [\text{m/s}]$$
-*   **Shop-Erlösung:** [Schmitt Kurbelwellen auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#kurbelwelle)
+*   **Shop-Erlösung:** [Schmitt Kurbelwellen auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/kurbelwelle.html)
 *   **Direktlink zum Kapitel:** [Kapitel 4 lesen 📖](chapters/chapter_04_kurbelwelle.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -136,7 +136,7 @@ graph TD
 *   **Dramatische Formel:** Das reibschlüssig übertragbare Drehmoment:
     $$M_r = \mu \cdot z \cdot r_m \cdot F_n$$
 *   **Python-Tool:** Starte den [Speed- & Übersetzungssimulator](tools/drama_calculator.py).
-*   **Shop-Erlösung:** [Schmitt Kupplungskits auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#kupplung)
+*   **Shop-Erlösung:** [Schmitt Kupplungskits auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/kupplung.html)
 *   **Direktlink zum Kapitel:** [Kapitel 5 lesen 📖](chapters/chapter_05_kupplung.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -150,7 +150,7 @@ graph TD
 *   **Thema:** Magnetsteuerung statt mechanischer Kontakte. Das 12V 100W VAPE-Kraftwerk.
 *   **Dramatische Formel:** Umrechnung von Kolbenweg vor OT in Kurbelwinkel:
     $$\alpha \approx \sqrt{\frac{s}{r}} \cdot \frac{180}{\pi}$$
-*   **Shop-Erlösung:** [Schmitt VAPE Zündungen auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#zuendung)
+*   **Shop-Erlösung:** [Schmitt VAPE Zündungen auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#home)
 *   **Direktlink zum Kapitel:** [Kapitel 6 lesen 📖](chapters/chapter_06_zuendung.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -164,7 +164,7 @@ graph TD
 #### [Kapitel 7: Die Kühlung](chapters/chapter_07_kuehlung.md)
 *   **SEO-Ziel:** Simson Zylinderkopf tuning, Kühlung Simson
 *   **Thema:** Thermische Degradation verhindern. Fächerköpfe und Wärmeableitung.
-*   **Shop-Erlösung:** [Schmitt Performance Zylinderköpfe auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#kuehlung)
+*   **Shop-Erlösung:** [Schmitt Performance Zylinderköpfe auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/performance-kopf.html)
 *   **Direktlink zum Kapitel:** [Kapitel 7 lesen 📖](chapters/chapter_07_kuehlung.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -178,7 +178,7 @@ graph TD
 *   **Thema:** Zähmung des Topspeeds. Geschlitzte Backen für den Notanker.
 *   **Dramatische Formel:** Berechnung des Bremsmoments:
     $$M_B = 2 \cdot \mu \cdot F_A \cdot i \cdot r$$
-*   **Shop-Erlösung:** [Schmitt Bremskomponenten auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#bremsen)
+*   **Shop-Erlösung:** [Schmitt Bremskomponenten auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/sport-bremsen.html)
 *   **Direktlink zum Kapitel:** [Kapitel 8 lesen 📖](chapters/chapter_08_bremsen.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -190,7 +190,7 @@ graph TD
 #### [Kapitel 9: Die Lunge](chapters/chapter_09_luftfilter.md)
 *   **SEO-Ziel:** Simson Sportluftfilter einbauen, Ansaugweg optimieren
 *   **Thema:** Der Orkan im Ansaugweg. High-End Luftfilter und das brutale Ansauggeräusch.
-*   **Shop-Erlösung:** [Schmitt Luftfilter auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/index.html#lunge)
+*   **Shop-Erlösung:** [Schmitt Luftfilter auf schmitt-tuning.de ansehen 🔍](https://schmitt-tuning.de/neu/produkt/luftfilter.html)
 *   **Direktlink zum Kapitel:** [Kapitel 9 lesen 📖](chapters/chapter_09_luftfilter.md)
 
 [Nach oben ⬆️](#) | [Zurück zum Manifest 📋](#chapters-hub)
@@ -219,11 +219,11 @@ Diese Komponenten heben dich aus dem Sumpf des Grauguss-Elends:
 
 | Komponente | Original-Elend | Schmitt-Erlösung | Suchbegriff (SEO) | Direktlink zum Produkt |
 | :--- | :--- | :--- | :--- | :--- |
-| **Zylinder** | Grauguss (Klemmer bei Hitze) | Almot Aluminium & Nicasil | *Simson Zylinder tuning* | [Sportfreund 60ccm Zylinderkit 🛒](https://www.racing-planet.de/xanario_search.php?query=schmitt+sportfreund+60) |
-| **Vergaser** | Verstopft & verzogen | Schmitt BVF 19N1 / 21N1 | *Simson Vergaser 19N1* | [Schmitt BVF 19mm Vergaser 🛒](https://www.racing-planet.de/xanario_search.php?query=schmitt+vergaser+19) |
-| **Auspuff** | Verstopfter Prallblech-Topf | DailyStreet / DailyRace D | *Simson Tuning Auspuff* | [Schmitt DailyRace SP Auspuff 🛒](https://www.racing-planet.de/xanario_search.php?query=schmitt+dailyrace) |
-| **Zündung** | Verschleißende Unterbrecher | Schmitt VAPE 12V 100W | *Simson VAPE einstellen* | [Schmitt VAPE Zündungsanlage 🛒](https://www.racing-planet.de/xanario_search.php?query=schmitt+vape) |
-| **Kupplung** | Rutscht ab 5 Nm Drehmoment | 5-Lamellen Carbon Kit | *Simson Kupplung rutscht* | [Schmitt 5-Lamellen Kupplungskit 🛒](https://www.racing-planet.de/xanario_search.php?query=schmitt+kupplung) |
+| **Zylinder** | Grauguss (Klemmer bei Hitze) | Almot Aluminium & Nicasil | *Simson Zylinder tuning* | [Sportfreund 60ccm Zylinderkit 🛒](https://www.racing-planet.de/zylinderkit-schmitt-sportfreund-vertex-edition-60ccm-41mm-fuer-simson-s51-kr51-2-sr50-p-568944-1.html) |
+| **Vergaser** | Verstopft & verzogen | Schmitt BVF 19N1 / 21N1 | *Simson Vergaser 19N1* | [Schmitt BVF 19mm Vergaser 🛒](https://www.racing-planet.de/tuning-vergaser-kit-19mm-fuer-simson-s50-s51-s53-s70-s83-sr50-sr80-p-394411-1.html) |
+| **Auspuff** | Verstopfter Prallblech-Topf | DailyStreet / DailyRace D | *Simson Tuning Auspuff* | [Schmitt DailyRace SP Auspuff 🛒](https://www.racing-planet.de/halter-auspuff-hinten-edelstahl-fuer-simson-s50-s51-p-586036-1.html) |
+| **Zündung** | Verschleißende Unterbrecher | Schmitt VAPE 12V 100W | *Simson VAPE einstellen* | [Schmitt VAPE Zündungsanlage 🛒](https://www.racing-planet.de/zuendung-schmitt-fuer-simson-s50-s51-schwalbe-kr51-sr-4-roller-sr50-p-590261-1.html) |
+| **Kupplung** | Rutscht ab 5 Nm Drehmoment | 5-Lamellen Carbon Kit | *Simson Kupplung rutscht* | [Schmitt 5-Lamellen Kupplungskit 🛒](https://www.racing-planet.de/kupplung-paket-komplett-5-scheiben-10mm-aluminium-version-16mm-feder-fuer-simson-s51-s70-s53-s83-enduro-p-586040-1.html) |
 
 ---
 

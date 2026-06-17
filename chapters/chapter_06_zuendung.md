@@ -27,6 +27,12 @@ Und das Licht? Ein trauriges Glimmen im Scheinwerfergehäuse, das den Weg in der
 
 <a name="vape"></a>
 ## 2. Der Funke des Schöpfers: Schmitt VAPE 12V
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/STT55403_10.jpg" alt="Schmitt Zündungsanlage für Simson – Magnetgesteuerte 12V 100W Lichtgewalt." width="320"><br>
+  <em>Schmitt Zündungsanlage für Simson – Magnetgesteuerte 12V 100W Lichtgewalt.</em>
+</p>
+
 Das Ende des Verschleißes ist besiegelt durch die **Schmitt VAPE Zündanlage**. 
 
 *   **Der stoische Geber:** Ein berührungsloser Magnetsensor (Pickup) fängt die Position der Kurbelwelle ab und zündet absolut präzise bis über $12.000\,\text{U/min}$. Kein Flattern, kein Einstellen nach Verschleiß.
@@ -77,16 +83,16 @@ graph TD
     
     BrokenGeber --> Upgrade["🔥 Umrüstung auf die wartungsfreie Schmitt VAPE Zündung"]
     
-    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/index.html#zuendung'>Schmitt VAPE auf schmitt-tuning.de bestellen</a>"]
-    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/xanario_search.php?query=schmitt+vape'>VAPE Sets im Racing Planet Shop kaufen</a>"]
+    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/index.html#home'>Schmitt VAPE auf schmitt-tuning.de bestellen</a>"]
+    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/zuendung-schmitt-fuer-simson-s50-s51-schwalbe-kr51-sr-4-roller-sr50-p-590261-1.html'>VAPE Sets im Racing Planet Shop kaufen</a>"]
 ```
 
 > [!TIP]
 > Zündungsflattern ist der Tod des Kolbens. MAMA, DAS EISEN WEISS MEINEN NAMEN. Beende das Ruckeln und hole dir das Schmitt VAPE Zündkit.
 >
-> ➡️ **[Jetzt Zündungs-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#zuendung)**
+> ➡️ **[Jetzt Zündungs-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#home)**
 >
-> ➡️ **[Direktlink zum Schmitt VAPE Umrüstset bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+vape)**
+> ➡️ **[Direktlink zum Schmitt VAPE Umrüstset bei Racing Planet](https://www.racing-planet.de/zuendung-schmitt-fuer-simson-s50-s51-schwalbe-kr51-sr-4-roller-sr50-p-590261-1.html)**
 
 ---
 

@@ -26,6 +26,12 @@ Darth Vader atmet durch meine Maschine. Jeder Takt ist ein qualvoller Kampf um L
 
 <a name="orkan"></a>
 ## 2. Der Orkan: Schmitt High-End Luftfilter
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/STT49007_2.jpg" alt="Schmitt BVF Düsenset – Das Feintuning der Beatmung für das ideale Verbrennungsluftverhältnis." width="320"><br>
+  <em>Schmitt BVF Düsenset – Das Feintuning der Beatmung für das ideale Verbrennungsluftverhältnis.</em>
+</p>
+
 Die künstliche Beatmung setzt ein: **Schmitt High-End Schaumstoff-Luftfilter**.
 
 *   **Der Tornado im Ansaugweg:** Grobporiger, mehrschichtiger Filterschaum lässt die Luft ungehindert strömen, während Schmutzpartikel zuverlässig ausgesperrt werden.
@@ -69,16 +75,16 @@ graph TD
     StandardAirbox -->|Ja| AirStarvation["⚠️ Das Urteil: Zylinder erstickt an Luftmangel!"]
     AirStarvation --> Upgrade["🔥 Einbau eines Schmitt High-End Luftfiltersystems"]
     
-    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/index.html#lunge'>Luftfilter auf schmitt-tuning.de wählen</a>"]
-    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/xanario_search.php?query=schmitt+hauptduesen'>Hauptdüsenset bei Racing Planet zum Abstimmen bestellen</a>"]
+    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/produkt/luftfilter.html'>Luftfilter auf schmitt-tuning.de wählen</a>"]
+    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/vergaser-leerlaufduesen-set-schmitt-fuer-bvf-vergaser-25-34-10-stueck-p-506597-1.html'>Hauptdüsenset bei Racing Planet zum Abstimmen bestellen</a>"]
 ```
 
 > [!TIP]
 > Luft ist kein bloßes Medium – es ist die Nahrung des Zylinders. MAMA, ICH ATME WELTEN EIN. Befreie die Lunge deiner Simson.
 >
-> ➡️ **[Jetzt Luftfilter-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#lunge)**
+> ➡️ **[Jetzt Luftfilter-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/produkt/luftfilter.html)**
 >
-> ➡️ **[Direktlink zu den passenden Schmitt Düsenkits bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+hauptduesen)**
+> ➡️ **[Direktlink zu den passenden Schmitt Düsenkits bei Racing Planet](https://www.racing-planet.de/vergaser-leerlaufduesen-set-schmitt-fuer-bvf-vergaser-25-34-10-stueck-p-506597-1.html)**
 
 ---
 

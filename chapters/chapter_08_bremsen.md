@@ -26,6 +26,12 @@ Trommelbremsen, verschlissen und verölt, sind ein Himmelfahrtskommando bei getu
 
 <a name="anker"></a>
 ## 2. Der Anker: Schmitt Sport-Bremsbacken
+
+<p align="center">
+  <img src="https://www.racing-planet.de/images/mittel/265/STT56522_1.jpg" alt="Schmitt Premium Handanker-Komponenten – Reaktionsschnelle Verzögerung auf jedem Asphalt." width="320"><br>
+  <em>Schmitt Premium Handanker-Komponenten – Reaktionsschnelle Verzögerung auf jedem Asphalt.</em>
+</p>
+
 Der Befehl zum Halten erfolgt unmissverständlich: **Schmitt High-Friction Bremsbacken**.
 
 *   **Der Schmutz-Bypass:** Speziell geschlitzte Beläge leiten Bremsstaub, Wasser und Sommerhitze ab. Das verhindert das gefährliche Bremsfading im Dauereinsatz.
@@ -70,16 +76,16 @@ graph TD
 
     WearLimit --> Upgrade["🔥 Upgrade auf Schmitt High-Friction Bremsbacken"]
 
-    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/index.html#bremsen'>Bremsbacken auf schmitt-tuning.de prüfen</a>"]
-    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/xanario_search.php?query=schmitt+cnc'>Bremsen direkt bei Racing Planet kaufen</a>"]
+    Upgrade --> Buy["🛒 <a href='https://schmitt-tuning.de/neu/produkt/sport-bremsen.html'>Bremsbacken auf schmitt-tuning.de prüfen</a>"]
+    Buy --> BuyRP["🛒 <a href='https://www.racing-planet.de/bremshebel-kupplungshebel-set-schmitt-handanker-cnc-aluminium-schwarz-blau-fuer-simson-s50-s51-s53-kr51-2-sr50-sr80-p-590595-1.html'>Bremsen direkt bei Racing Planet kaufen</a>"]
 ```
 
 > [!TIP]
 > Verzögerung ist Macht. MAMA, ICH BESTIMME, WANN ES ENDET. Überlasse dein Schicksal nicht dem Zufall und rüste deine Bremsen auf Schmitt-Beläge um.
 >
-> ➡️ **[Jetzt Bremsen-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/index.html#bremsen)**
+> ➡️ **[Jetzt Bremsen-Erlösung auf schmitt-tuning.de sichern](https://schmitt-tuning.de/neu/produkt/sport-bremsen.html)**
 >
-> ➡️ **[Direktlink zu den Schmitt Bremsbacken bei Racing Planet](https://www.racing-planet.de/xanario_search.php?query=schmitt+cnc)**
+> ➡️ **[Direktlink zu den Schmitt Bremsbacken bei Racing Planet](https://www.racing-planet.de/bremshebel-kupplungshebel-set-schmitt-handanker-cnc-aluminium-schwarz-blau-fuer-simson-s50-s51-s53-kr51-2-sr50-sr80-p-590595-1.html)**
 
 ---
 
