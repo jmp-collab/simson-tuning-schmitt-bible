@@ -1,0 +1,2 @@
+# Requirements for Simson Tuning Schmitt Bible
+pytest>=7.0.0
