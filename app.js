@@ -220,6 +220,41 @@ function fetchAndRenderMarkdown(filename, isPortal = false) {
             return res.text();
         })
         .then(markdown => {
+            // 0. GitHub Alerts preprocessor — runs BEFORE marked.parse()
+            // Converts > [!TIP/NOTE/IMPORTANT/WARNING/CAUTION] blocks into styled HTML.
+            // marked.js has no native support for these; we handle them here.
+            const alertConfig = {
+                'NOTE':      { icon: 'fa-solid fa-circle-info',        label: 'Hinweis',   color: '#4a9eff', bg: 'rgba(74,158,255,0.06)',  border: 'rgba(74,158,255,0.35)' },
+                'TIP':       { icon: 'fa-solid fa-lightbulb',           label: 'Tipp',      color: '#00e676', bg: 'rgba(0,230,118,0.06)',   border: 'rgba(0,230,118,0.35)' },
+                'IMPORTANT': { icon: 'fa-solid fa-star',                label: 'Wichtig',   color: '#ffb703', bg: 'rgba(255,183,3,0.06)',   border: 'rgba(255,183,3,0.35)' },
+                'WARNING':   { icon: 'fa-solid fa-triangle-exclamation', label: 'Warnung',   color: '#ff6b35', bg: 'rgba(255,107,53,0.06)',  border: 'rgba(255,107,53,0.35)' },
+                'CAUTION':   { icon: 'fa-solid fa-skull-crossbones',    label: 'Achtung!',  color: '#cc0000', bg: 'rgba(204,0,0,0.08)',     border: 'rgba(204,0,0,0.4)' }
+            };
+
+            const alertBodies = [];
+
+            // Match full blockquote blocks starting with > [!TYPE]
+            // Each line of the block starts with "> " or is just ">"
+            markdown = markdown.replace(
+                /^> \[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\n((?:>.*\n?)*)/gm,
+                (match, type, body) => {
+                    const cfg = alertConfig[type];
+                    // Strip leading "> " from each body line
+                    const innerMd = body
+                        .split('\n')
+                        .map(line => line.replace(/^> ?/, ''))
+                        .join('\n')
+                        .trim();
+                    // Store body markdown for post-parse injection
+                    const idx = alertBodies.length;
+                    alertBodies.push({ innerMd, cfg, type });
+                    return `<div class="gh-alert gh-alert-${type.toLowerCase()}" style="--alert-color:${cfg.color};--alert-bg:${cfg.bg};--alert-border:${cfg.border}">` +
+                           `<div class="gh-alert-label"><i class="${cfg.icon}"></i> ${cfg.label}</div>` +
+                           `<div class="gh-alert-body">ALERTBODY${idx}ENDALERTBODY</div>` +
+                           `</div>\n\n`;
+                }
+            );
+
             // 1. Math preprocessing: protect LaTeX formulas from marked.js parsing
             const mathBlocks = [];
             const mathInlines = [];
@@ -248,7 +283,17 @@ function fetchAndRenderMarkdown(filename, isPortal = false) {
             
             let html = marked.parse(processed);
             
-            // 3. Postprocess: decode any HTML entities that marked.js may have introduced
+            // 3a. Inject alert bodies (parsed as inline markdown so links/bold work)
+            if (alertBodies.length > 0) {
+                alertBodies.forEach(({ innerMd }, idx) => {
+                    const placeholder = `ALERTBODY${idx}ENDALERTBODY`;
+                    // Use marked.parse() on body so multi-line content (links, bold) renders fully
+                    const renderedBody = marked.parse(innerMd).replace(/^<p>|<\/p>\n?$/g, '');
+                    html = html.replaceAll(placeholder, renderedBody);
+                });
+            }
+
+            // 3b. Postprocess: decode any HTML entities that marked.js may have introduced
             // into our placeholder strings (e.g. inside <code> blocks)
             html = html
                 .replace(/MATHBLOCK(\d+)ENDMATHBLOCK/g, 'MATHBLOCK$1ENDMATHBLOCK') // identity — kept for clarity

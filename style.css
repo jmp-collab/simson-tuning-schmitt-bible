@@ -693,7 +693,55 @@ table tbody tr:hover {
     margin-bottom: 10px;
 }
 
-/* GitHub Alerts / Callout Styling */
+/* GitHub Alerts — rendered by app.js preprocessor, styled here */
+.gh-alert {
+    margin: 28px 0;
+    padding: 16px 20px;
+    background-color: var(--alert-bg, rgba(255,255,255,0.03));
+    border-radius: 10px;
+    border: 1px solid var(--alert-border, rgba(255,255,255,0.1));
+    border-left: 4px solid var(--alert-color, #888);
+}
+
+.gh-alert-label {
+    font-family: var(--font-heading);
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--alert-color, #fff);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.gh-alert-label i {
+    font-size: 14px;
+}
+
+.gh-alert-body {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-main);
+}
+
+/* Inline markdown inside alert body is rendered by marked after injection */
+.gh-alert-body p {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.gh-alert-body p:last-child {
+    margin-bottom: 0;
+}
+
+.gh-alert-body a {
+    color: var(--alert-color, var(--primary-light));
+    font-weight: 600;
+}
+
+/* Legacy blockquote fallback (for any remaining > blockquotes without [!TYPE]) */
 blockquote {
     margin: 24px 0;
     padding: 18px 24px;
@@ -702,31 +750,10 @@ blockquote {
     border-left: 4px solid var(--text-muted);
 }
 
-blockquote h5, blockquote strong {
-    font-family: var(--font-heading);
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: block;
+blockquote p {
     margin-bottom: 6px;
-}
-
-/* Specific Alerts styling */
-blockquote:has(strong:contains("NOTE")), blockquote:has(h5:contains("NOTE")) {
-    border-left-color: #2196f3;
-    background-color: rgba(33, 150, 243, 0.03);
-}
-blockquote:has(strong:contains("TIP")), blockquote:has(h5:contains("TIP")) {
-    border-left-color: #00e676;
-    background-color: rgba(0, 230, 118, 0.03);
-}
-blockquote:has(strong:contains("WARNING")), blockquote:has(h5:contains("WARNING")) {
-    border-left-color: var(--primary-light);
-    background-color: rgba(204, 0, 0, 0.03);
-}
-blockquote:has(strong:contains("IMPORTANT")), blockquote:has(h5:contains("IMPORTANT")) {
-    border-left-color: #ffb703;
-    background-color: rgba(255, 183, 3, 0.03);
+    font-size: 15px;
+    color: var(--text-main);
 }
 
 /* Code Blocks & LaTeX Math */
